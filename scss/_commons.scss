@@ -1,0 +1,258 @@
+/*body*/
+
+*{
+	font-family:'Smooch Sans', sans-serif;
+	
+	}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image:url("../imagenes/space-4.jpg");
+	background-repeat: all;
+	text-align: center;
+}
+
+//audio
+
+
+.audio{ display: flex;
+	    justify-content: center;
+        align-items: center;
+       
+
+    }
+     
+
+	     
+
+
+//Experimento
+
+.header-conteiner{
+	padding-left: 60px;
+	display: grid;
+	width: 99%;
+	grid-row-gap: 100px;
+	grid-template-columns: repeat (4, 300px);
+	grid-template-rows: 300px 300px ;
+	grid-template-areas:  "fot1 fot2 fot3 fot4"
+	                      "fot5 fot6 fot7 fot8";
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+	   display: flex;
+	   flex-direction: column;
+}
+}
+
+
+
+.img_1{
+	grid-area: fot1;
+	
+}
+.img_2{
+	grid-area: fot2;
+	
+}
+.img_3{
+	grid-area: fot3;
+}
+.img_4{
+	grid-area: fot4;
+}
+.img_5{
+	grid-area: fot5;
+}
+.img_6{
+	grid-area: fot6;
+}
+.img_7{
+	grid-area: fot7;
+}
+.img_{
+    grid-area: fot8;
+}    
+
+
+
+
+
+
+
+//carousel
+
+#h5{
+	    color: $color-terciario;
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 8rem;
+	    font-weight: 500;
+	    list-style-type: none;
+	    background-color: grey;
+
+}
+
+// accordeon
+
+
+.accordeon{
+	color:$color-acor;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: $background-color;
+	text-align: center;
+
+}
+#acord_1{
+	background-color: $background-color;
+}
+
+
+.texto_4 code:first-letter{
+           font-weight: $medida-uni;
+           color: green;	
+
+}
+
+//grillas
+
+.grid-container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: 100rem, 100rem;
+     grid-column-gap: $medida-uni;
+     grid-template-areas: "img_2 video" ;
+     display: flex;
+     justify-content: center;
+     padding-bottom: 10 rem;
+     
+  
+}
+
+.img_2 {
+	grid-area: img_2;
+	width: 500px;
+	height: 250px;
+
+	
+}
+
+
+.video{
+	grid-area: video;
+	width: 500px;
+	height: 250px;
+	padding-top: auto;
+	
+}
+
+/*header*/
+
+header { 
+         img {
+	            width: 150px;
+	            height: auto;
+	            -webkit-transition: .1 s ease-in-out;
+	            transition: .1 s ease-in-out;
+	         }
+	        & :hover  {
+	        width: 400px;
+	         }
+}
+
+
+
+//Tablas
+
+#tabla-estilo{
+	width: 3rem;
+	margin: 1.5 auto;
+	width: 50%;
+	
+
+}
+.tabla{
+	background-color: $color-tablas;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+
+}
+
+td{
+	tr{
+	   th {
+	         border: solid 1rem;
+	         color: rgb (0, 0, 0);
+	         padding: 0;
+
+	       }  
+      }
+} 
+
+
+/*animaciones*/
+
+@keyframes animacionH1{
+	0%{width: 100px}
+	25%{width: 300px;}
+	50%{width: 400px}
+	100%{width: 1000px}
+}
+
+.animate{
+	animation-name: animacionH1;
+	animation-iteration-count: 	all ;
+	animation-timing-function: linear ;
+	animation-duration: 5s; 
+}
+
+.btn{
+  
+  width: 5rem;
+  width: 3rem;
+
+}
+
+/*pagina 404*/
+
+.pagina_404{
+	background-image:url("../imagenes/pagina_404.jpeg");
+	background-position: center;
+
+	
+}
+
+
+.pg_404{
+
+      display: inline-block;
+      margin-top:250px;
+      border-radius: 2rem;
+      text-shadow: 1;
+      background-color: rgba(214, 174, 245, 03);
+
+
+      
+
+
+}
+
+
+.frame{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	
+}

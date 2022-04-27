@@ -1,0 +1,28 @@
+.nav{
+      background-color: rgb (78, 41, 214, 0.1);
+	 text-align: center;
+	 display: flex;
+	 list-style: none;
+       justify-content: space-around;
+      
+
+
+}
+.nav-items{
+	font-family: 'Roboto', sans-serif; 
+	                 font-size: 1.5rem;
+	                 color: $color-terciario;
+	                 text-decoration: none;
+	                 text-align: center;
+	                 justify-content:space-around;
+
+}
+
+.btn_color{
+	background-color:$color-terciario;
+	border-color:$color-terciario;
+}
+.btn-shop:hover{
+	color: beige;
+	
+}

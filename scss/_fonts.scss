@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Smooch+Sans:wght@100&display=swap');
+
+//texto
+
+
+
+h1 {
+	color:$color-terciario;
+	font-family: 'Roboto', sans-serif;
+	font-size: $medida-uni;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+
+h2,h3 {
+	color: $color-terciario;
+	font-size: $medida-uni;
+	font-weight: 300;
+
+}
+
+//texto
+
+
+
+.texto {
+	color: $color-terciario;
+	font-family:'Roboto', sans-serif; 
+	font-size: 5rem;
+	line-height: 3rem;
+	background-color: rgb (76, 68, 102, 0.2);
+}
+
+.texCenter{
+	text-align: center;
+	background-color: rgb (109, 96, 156, 0.2);
+	color: $color-terciario;
+	font-family: 'Roboto', sans-serif;
+	font-size: $medida-uni;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+.texto_2{
+    color: $color-terciario;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#pie{
+	font-size: 5rem;
+
+}
+
+.texto_3{
+	color: $color-terciario;
+	font-family:'Roboto', sans-serif; 
+	font-size: 2rem;
+}
+
+.texto_4 {
+	color:$color-terciario;
+	font-size: 1.5rem;
+}
+
+
+#h5{
+	color:$color-terciario;
+	font-family: 'Roboto', sans-serif;
+	font-size:3rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: rgb (117, 71, 39,0.1)
+
+}
+
+
+#accordeon{
+	background-color: rgb (80, 86, 115);
+	border-radius: 3px;
+
+}
